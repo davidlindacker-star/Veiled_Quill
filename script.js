@@ -21,67 +21,67 @@ const guests = [
     greeting: 'Christopher Klaus Pfeiffer, du wurdest berufen.'
   },
   {
-    name: 'Tamara',
+    name: '1',
     password: 'Host',
     displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    designation: 'Einberufung 04',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '2',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '2',
+    designation: 'Einberufung 05',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '3',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '3',
+    designation: 'Einberufung 06',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '4',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '4',
+    designation: 'Einberufung 07',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '5',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '5',
+    designation: 'Einberufung 08',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '6',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '6',
+    designation: 'Einberufung 09',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '7',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '7',
+    designation: 'Einberufung 10',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '8',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '8',
+    designation: 'Einberufung 11',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Tamara',
+    name: '9',
     password: 'Host',
-    displayName: 'Tamara',
-    designation: 'Geladene Person 006',
-    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+    displayName: '9',
+    designation: 'Einberufung 12',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
 
 ];
