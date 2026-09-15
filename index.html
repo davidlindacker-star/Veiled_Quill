@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Society of the Veiled Quill</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="shell">
+    <section id="loginView" class="panel">
+      <p class="eyebrow">Society of the Veiled Quill</p>
+      <h1>Geschützter Bereich</h1>
+      <p class="intro">Der Zugang zu diesem Archiv ist ausschließlich geladenen Personen vorbehalten.</p>
+
+      <form id="loginForm" class="login-form" autocomplete="off">
+        <label>
+          Name
+          <input id="nameInput" type="text" autocomplete="name" required>
+        </label>
+
+        <label>
+          Passphrase
+          <input id="passwordInput" type="password" required>
+        </label>
+
+        <button type="submit">Zugang prüfen</button>
+        <p id="errorMessage" class="error" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section id="inviteView" class="panel invite hidden">
+      <p class="eyebrow">Zugang gewährt</p>
+      <h1 id="guestHeading"></h1>
+      <p class="designation" id="guestDesignation"></p>
+
+      <div class="rule"></div>
+
+      <div class="invitation-copy">
+        <p id="personalGreeting"></p>
+        <p>
+          Du bist zur <strong>Vierten Zusammenkunft</strong>
+          der Society of the Veiled Quill geladen.
+        </p>
+        <p>
+          An diesem Abend wird ein neues Kapitel geöffnet. Was bewahrt wurde,
+          was vergessen scheint und was besser verborgen geblieben wäre,
+          ist nicht zwangsläufig dasselbe.
+        </p>
+      </div>
+
+      <dl class="details">
+        <div><dt>Datum</dt><dd>03.10.2026</dd></div>
+        <div><dt>Beginn</dt><dd>19:00 Uhr</dd></div>
+        <div><dt>Ort</dt><dd>Wird noch bekannt gegeben</dd></div>
+        <div><dt>Dresscode</dt><dd>Dark Academia</dd></div>
+      </dl>
+
+      <details class="lore">
+        <summary>Über die Gesellschaft</summary>
+        <p>
+          Die Society of the Veiled Quill bewahrt Wissen, das nicht verloren gehen darf,
+          und stellt zugleich die Frage, ob es weiterhin verborgen bleiben sollte.
+        </p>
+        <p>
+          Alle 27 Jahre wird eine neue Generation einberufen, um die Entscheidungen
+          ihrer Vorgänger neu zu beurteilen. Im Jahr 2026 beginnt die Vierte Zusammenkunft.
+        </p>
+      </details>
+
+      <button id="logoutButton" class="secondary">Archiv verlassen</button>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
