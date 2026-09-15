@@ -1,18 +1,89 @@
 const guests = [
   {
     name: 'David',
-    password: 'vesper27',
+    password: 'Test',
     displayName: 'David',
-    designation: 'Geladene Person 017',
-    greeting: 'David, dein Name wurde in das Verzeichnis aufgenommen.'
+    designation: 'Einberufung 01',
+    greeting: 'David Lindacker, dein Name wurde in das Verzeichnis aufgenommen.'
   },
   {
-    name: 'Anna',
-    password: 'quill1945',
-    displayName: 'Anna',
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Einberufung 02',
+    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Chris',
+    password: 'Wissensdurst',
+    displayName: 'Chris',
+    designation: 'Einberufung 03',
+    greeting: 'Christopher Klaus Pfeiffer, du wurdest berufen.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
     designation: 'Geladene Person 006',
-    greeting: 'Anna, deine Anwesenheit wurde erbeten.'
-  }
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+  {
+    name: 'Tamara',
+    password: 'Host',
+    displayName: 'Tamara',
+    designation: 'Geladene Person 006',
+    greeting: 'Tamara, deine Anwesenheit wurde erbeten.'
+  },
+
 ];
 
 const loginView = document.getElementById('loginView');
