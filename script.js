@@ -82,7 +82,7 @@ const guests = [
     displayName: '9',
     designation: 'Einberufung 12',
     greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
-  },
+  }
 
 ];
 
