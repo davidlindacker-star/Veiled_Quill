@@ -140,7 +140,7 @@ loginForm.addEventListener('submit', (event) => {
   );
 
   if (!guest) {
-    errorMessage.textContent = 'Zugang verweigert. Name oder Passphrase wurden nicht erkannt.';
+    errorMessage.textContent = 'Zugang verweigert. Name oder Passwort wurden nicht erkannt.';
     return;
   }
 
