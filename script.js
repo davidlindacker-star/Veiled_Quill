@@ -14,76 +14,104 @@ const guests = [
     greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: 'Chris',
+    name: 'Christopher',
     password: 'Wissensdurst',
-    displayName: 'Chris',
+    displayName: 'Christopher',
     designation: 'Einberufung 03',
     greeting: 'Christopher Klaus Pfeiffer, du wurdest berufen.'
   },
   {
-    name: '1',
-    password: 'Host',
-    displayName: 'Tamara',
+    name: 'Patricia',
+    password: 'Weisheit',
+    displayName: 'Patricia',
     designation: 'Einberufung 04',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Patricia Hopp, dein Name ist im Archiv verzeichnet.'
   },
   {
-    name: '2',
-    password: 'Host',
-    displayName: '2',
+    name: 'Alexander',
+    password: 'Intelligenz',
+    displayName: 'Alexander',
     designation: 'Einberufung 05',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Alexander Sailer, deine Anwesenheit wird erwartet'
   },
   {
-    name: '3',
-    password: 'Host',
-    displayName: '3',
+    name: 'Sonja',
+    password: 'Fortschritt',
+    displayName: 'Sonja',
     designation: 'Einberufung 06',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Sonja Genter, dein Name wurde in das Register aufgenommen.'
   },
   {
-    name: '4',
-    password: 'Host',
-    displayName: '4',
+    name: 'Selina',
+    password: 'Lexikon',
+    displayName: 'Selina',
     designation: 'Einberufung 07',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Selina Büssecker, du wurdest zur Versammlung geladen.'
   },
   {
-    name: '5',
-    password: 'Host',
-    displayName: '5',
+    name: 'Luca',
+    password: 'Enzyklopädie',
+    displayName: 'Luca',
     designation: 'Einberufung 08',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Luca Leitzbach, dein Platz wurde vorgesehen.'
   },
   {
-    name: '6',
-    password: 'Host',
-    displayName: '6',
+    name: 'Katharina',
+    password: 'Neugier',
+    displayName: 'Katharina',
     designation: 'Einberufung 09',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Katharina Wagner, du wurdest für die vierte Convocation ausgewählt.'
   },
   {
-    name: '7',
-    password: 'Host',
-    displayName: '7',
+    name: 'Clemens',
+    password: 'Erkenntnis',
+    displayName: 'Clemens',
     designation: 'Einberufung 10',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Clemens Fischer, die Gesellschaft erwartet dich.'
   },
   {
-    name: '8',
-    password: 'Host',
-    displayName: '8',
+    name: 'Alina',
+    password: 'Aufklärung',
+    displayName: 'Alina',
     designation: 'Einberufung 11',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Alina Bartz, deine Anwesenheit wurde erbeten.'
   },
   {
-    name: '9',
-    password: 'Host',
-    displayName: '9',
+    name: 'Christian',
+    password: 'Erleuchtung',
+    displayName: 'Christian',
     designation: 'Einberufung 12',
-    greeting: 'Tamara Büssecker, deine Anwesenheit wurde erbeten.'
+    greeting: 'Christian Bartz, du wurdest zur Versammlung geladen.'
+  },
+  {
+    name: 'Anna',
+    password: 'Akademia',
+    displayName: 'Anna',
+    designation: 'Einberufung 13',
+    greeting: 'Anna Sluk, deine Anwesenheit ist vorgesehen.'
+  },
+  {
+    name: 'Verena',
+    password: 'Scholar',
+    displayName: 'Verena',
+    designation: 'Einberufung 14',
+    greeting: 'Verena Büssecker, du wurdest zur Versammlung geladen.'
+  },
+  {
+    name: 'Katharina',
+    password: 'Bibliothek',
+    displayName: 'Katharina',
+    designation: 'Einberufung 15',
+    greeting: 'Katharina Sofie Winkler, dein Erscheinen wurde vermerkt.'
+  },
+  {
+    name: 'Florian',
+    password: 'Scholar',
+    displayName: 'Florian',
+    designation: 'Einberufung 16',
+    greeting: 'Florian Mauer, dir wurde Zugang gewährt.'
   }
-
+  
 ];
 
 const loginView = document.getElementById('loginView');
